@@ -1,6 +1,6 @@
 import { useReducer, useRef } from "react";
-import reducer, { initState } from './Todo/reducer';
-import { setJob, addJob, deleteJob } from './Todo/action'
+import reducer, { initState } from './reducer';
+import { setJob, addJob, deleteJob } from './action'
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initState)
